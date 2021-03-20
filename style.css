@@ -1,0 +1,95 @@
+body {
+    background-color: mediumseagreen;
+
+}
+h2, p, a {
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+	width: 70%;
+	height: 90%;
+	justify-content: center;
+	/* align-items: center; */
+
+	margin: auto;
+}
+div.text {
+    min-height: 225px;
+	width: 320px;
+    background-color: white;
+}
+div.bellow-text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+.big-section-img img {
+    width: 355px;
+    height: 225px;
+
+}
+.small-section-img img {
+    width: 235px;
+    height: 175px;
+
+}
+.big-section {
+    display: flex;
+	flex-direction: row;
+	width: 675px;
+	height: 225px;
+	margin-bottom: 15px;
+
+}
+
+div.big-bottom {
+    display: flex;
+	flex-direction: column;
+	width: 425px;
+	height: 225px;
+	margin-bottom: 15px;
+    margin-right: 15px;
+}
+.big-bottom div.text{
+    max-height: 225px;
+	width: 425px;
+}
+
+div.small div.text {
+    width: 235px;
+    margin-top: 0;
+    margin-right: 15px;
+}
+
+
+div.bottom-sections {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around;  */
+    flex-wrap: wrap;
+}
+
+div.bottom-small-sections {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around;  */
+    flex-wrap: wrap;
+
+}
+
+
+
+.big-section-img2 img {
+    width: 425px;
+    height: 325px;
+
+}
+
+div.small, div.first {
+    display: flex;
+	flex-direction: column;
+    margin-bottom: 15px;
+}
